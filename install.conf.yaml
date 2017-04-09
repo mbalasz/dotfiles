@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~']
+
+- link:
+    ~/.atom/config.cson: atom/config.cson
+    ~/.bashrc:
+    ~/.config/i3: i3
+    ~/.vimrc:
+    ~/.Xresources:
+    ~/.zpreztorc:
+
+- shell:
+  - git submodule update --init --recursive

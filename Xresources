@@ -1,0 +1,90 @@
+URxvt.font:xft:Inconsolata\ for\ Powerline:size=13:antialias=true:hinting=true
+URxvt.boldFont:xft:inconsolata:bold:size=13:antialias=true:hinting=true,xft:Inconsolata\ for\ Powerline:size=13
+URxvt.scrollBar: false
+
+URxvt.perl-ext-common: default,matcher,selection-to-clipboard,resize-font,searchable-scrollback
+
+! Open url links
+URxvt.url-launcher: google-chrome-stable
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold fg5
+
+! Resize font on the fly
+URxvt.resize-font.smaller: S-C-Down
+URxvt.resize-font.bigger: S-C-Up
+
+! Disable default bindings
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! Vim keybindings
+URxvt.keysym.C-Up             : \033[1;5A
+URxvt.keysym.C-Down           : \033[1;5B
+URxvt.keysym.C-Right          : \033[1;5C
+URxvt.keysym.C-Left           : \033[1;5D
+URxvt.keysym.C-S-Up           : \033[1;6A
+URxvt.keysym.C-S-Down         : \033[1;6B
+URxvt.keysym.C-S-Right        : \033[1;6C
+URxvt.keysym.C-S-Left         : \033[1;6D
+
+! Transparency
+URxvt.transparent: true
+URxvt.shading: 15
+
+! special
+*.foreground:   #93a1a1
+*.background:   #002b36
+*.cursorColor:  #93a1a1
+
+! black
+*.color0:       #002b36
+*.color8:       #657b83
+
+! red
+*.color1:       #dc322f
+*.color9:       #dc322f
+
+! green
+*.color2:       #859900
+*.color10:      #859900
+
+! yellow
+*.color3:       #b58900
+*.color11:      #b58900
+
+! blue
+*.color4:       #268bd2
+*.color12:      #268bd2
+
+! magenta
+*.color5:       #6c71c4
+*.color13:      #6c71c4
+
+! cyan
+*.color6:       #2aa198
+*.color14:      #2aa198
+
+! white
+*.color7:       #93a1a1
+*.color15:      #fdf6e3
+
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #b3151515, #b3151515, #b3151515
+rofi.color-normal: #00151515, #a8a8a8, #00151515, #00151515, #ffffff
+rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
+rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
+
+rofi.hide-scrollbar: true
+rofi.eh: 2
+rofi.lines: 4
+rofi.padding: 480
+rofi.bw: 0
+rofi.width: 100
+!rofi.opacity: 70
+rofi.font: Droid Sans Mono 15
+rofi.separator-style: none
+
