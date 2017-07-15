@@ -12,6 +12,7 @@
     ~/.vimrc:
     ~/.Xresources:
     ~/.zpreztorc:
+    ~/.zshrc:
 
 - shell:
   - git submodule update --init --recursive

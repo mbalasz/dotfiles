@@ -8,3 +8,5 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 complete -cf sudo
+
+alias coffeenotes=/data/mateusz/AndroidStudioProjects/CoffeeNotes/
