@@ -80,9 +80,15 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+# open new workspace in tabbed mode by default
+workspace_layout tabbed
+
 # next workspace
 bindsym Control+mod1+Left workspace prev
 bindsym Control+mod1+Right workspace next
+
+# Take screenshot
+bindsym $mod+Print exec deepin-screenshot
 
 # workspaces
 # Desktop
